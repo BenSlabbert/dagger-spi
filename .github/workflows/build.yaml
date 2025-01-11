@@ -23,4 +23,4 @@ jobs:
       uses: "stCarolas/setup-maven@v5"
       with:
         maven-version: "3.9.9"
-    - run: "mvn clean spotless:check install"
+    - run: "mvn -s settings.xml clean spotless:check install"
