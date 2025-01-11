@@ -7,10 +7,21 @@
   <version>${revision}</version>
   <packaging>pom</packaging>
 
+  <name>Dagger SPI</name>
+  <description>Dagger SPIs to enhance dagger builds</description>
+
   <modules>
     <module>example</module>
     <module>spi</module>
   </modules>
+
+  <distributionManagement>
+    <repository>
+      <id>github</id>
+      <name>GitHub BenSlabbert Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/BenSlabbert/dagger-spi</url>
+    </repository>
+  </distributionManagement>
 
   <properties>
     <!--mvn configs-->
