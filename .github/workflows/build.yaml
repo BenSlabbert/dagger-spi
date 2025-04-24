@@ -10,6 +10,8 @@ name: "Build"
 jobs:
   build:
     runs-on: "ubuntu-latest"
+    env:
+      GH_TOKEN: "${{ secrets.GH_TOKEN }}"
     timeout-minutes: 360
     permissions:
       actions: "read"
@@ -37,6 +39,11 @@ jobs:
       uses: "stCarolas/setup-maven@v5"
       with:
         maven-version: "3.9.9"
-    - run: "mvn clean spotless:check install"
+    - run: "mvn -s settings.xml clean spotless:check install"
     - name: "Perform CodeQL Analysis"
       uses: "github/codeql-action/analyze@v3"
+    - name: "Submit Dependency Snapshot"
+      uses: "advanced-security/maven-dependency-submission-action@v4"
+      with:
+        token: "${{ secrets.GH_TOKEN }}"
+        maven-args: "-s settings.xml"
