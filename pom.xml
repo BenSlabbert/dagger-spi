@@ -32,7 +32,7 @@
     <revision>0.0.0-SNAPSHOT</revision>
 
     <!--deps-->
-    <dagger.version>2.56.2</dagger.version>
+    <dagger.version>2.57</dagger.version>
     <errorprone.version>2.40.0</errorprone.version>
     <jakarta.annotation-api.version>3.0.0</jakarta.annotation-api.version>
     <junit.version>5.13.3</junit.version>
