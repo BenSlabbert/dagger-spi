@@ -39,7 +39,7 @@
     <assertj.version>3.27.4</assertj.version>
     <mockito.version>5.19.0</mockito.version>
     <slf4j.version>2.0.17</slf4j.version>
-    <compile-testing.version>0.21.0</compile-testing.version>
+    <compile-testing.version>0.22.0</compile-testing.version>
 
     <!--plugins-->
     <maven-shade-plugin.version>3.6.0</maven-shade-plugin.version>
