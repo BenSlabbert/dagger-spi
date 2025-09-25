@@ -52,7 +52,7 @@
     <maven-jar-plugin.version>3.4.2</maven-jar-plugin.version>
     <maven-install-plugin.version>3.1.4</maven-install-plugin.version>
     <maven-source-plugin.version>3.3.1</maven-source-plugin.version>
-    <spotless.version>2.46.1</spotless.version>
+    <spotless.version>3.0.0</spotless.version>
     <flatten-maven-plugin.version>1.7.3</flatten-maven-plugin.version>
   </properties>
 
