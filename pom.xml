@@ -49,7 +49,7 @@
     <maven-compiler-plugin.version>3.14.1</maven-compiler-plugin.version>
     <maven-surefire-plugin.version>3.5.4</maven-surefire-plugin.version>
     <maven-failsafe-plugin.version>3.5.2</maven-failsafe-plugin.version>
-    <maven-jar-plugin.version>3.4.2</maven-jar-plugin.version>
+    <maven-jar-plugin.version>3.5.0</maven-jar-plugin.version>
     <maven-install-plugin.version>3.1.4</maven-install-plugin.version>
     <maven-source-plugin.version>3.3.1</maven-source-plugin.version>
     <spotless.version>3.0.0</spotless.version>
